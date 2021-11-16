@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+#header{
+    width: 100%;
+    background-color: blue;
+}
+
+#header ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: 50px;
+}
+
+#header ul li{
+    color: red;
+    flex: 5 3 auto auto;
+    list-style: none;
+}
