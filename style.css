@@ -20,3 +20,8 @@ body{
     flex: 5 3 auto auto;
     list-style: none;
 }
+
+#footer{
+    width: 100%;
+    max-height: 10%;
+}
