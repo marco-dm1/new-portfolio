@@ -20,11 +20,20 @@ body{
 }
 
 #header ul li{
-    color: white;
     flex: 5 3 auto auto;
     list-style: none;
     padding: 2.5vh 0rem 2.5vh 0;
+    color: white;
+}
+
+#header ul li a{
     font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+#header ul li a:hover{
+    text-decoration: underline;
 }
 
 #BackgroundVideo{
