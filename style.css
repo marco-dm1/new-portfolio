@@ -1,10 +1,14 @@
 body{
     margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 1.35vw;
 }
 
 #header{
     width: 100%;
-    background-color: blue;
+    background-color: #151515;
+    height: 27.5%;
 }
 
 #header ul{
@@ -12,16 +16,33 @@ body{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    column-gap: 50px;
+    justify-content: space-evenly;
 }
 
 #header ul li{
-    color: red;
+    color: white;
     flex: 5 3 auto auto;
     list-style: none;
+    padding: 2.5vh 0rem 2.5vh 0;
+    font-weight: 300;
+}
+
+#BackgroundVideo{
+    position: fixed;
+    min-width: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 #footer{
     width: 100%;
     max-height: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer i, i a{
+    color: white;
+    font-size: 0.75em;
+    opacity: 0.5;
 }
