@@ -46,3 +46,27 @@ body{
     font-size: 0.75em;
     opacity: 0.5;
 }
+
+/*
+Used the implementation by RedStapler.co to
+insure the video always fills the screen
+despite it being a different aspect ratio
+from the video (16/9).
+
+https://redstapler.co/responsive-css-video-background/
+
+*/
+
+@media (max-aspect-ratio: 16/9) {
+    #BackgroundVideo { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #BackgroundVideo {
+        width:100%;
+        height: auto;
+    }
+}
